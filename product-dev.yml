@@ -5,12 +5,12 @@ spring:
     password: root
     url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
   rabbitmq:
-    host: 127.0.0.1
+    host: 172.20.4.15
     port: 5672
     username: guest
     password: guest
   redis:
-    host: 127.0.0.1
+    host: 172.20.4.15
     port: 6379
   jpa:
     show-sql: true
